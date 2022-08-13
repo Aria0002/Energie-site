@@ -1,0 +1,185 @@
+body {
+    font-family: monospace;
+    justify-content: center;
+    background-color: lightsalmon;
+}
+
+nav{
+    width: 100%;
+}
+.navbar{
+    padding: 1em;
+    height: 2em;
+    background-color: #bfd2ff;
+}
+.navbar li{
+    display: inline;
+}
+
+.link{
+    font-family: "Berlin Sans FB";
+    font-size: 1em;
+    color: darkslateblue;
+    padding: 0.75em;
+    text-decoration: none;
+}
+.link:link{
+    background-color: #7881a1;
+}
+
+.link:hover{
+    background-color: #1d212b;
+}
+
+.login-box {
+    margin: 1em;
+    position: absolute;
+    width: 40%;
+    padding: 70px 10px 150px 10px;
+    text-align: center;
+    color: lightgoldenrodyellow;
+    background-color: lightyellow;
+    border-radius: 10px;
+    top: 12%;
+    right: 30%;
+
+
+}
+
+.input-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 2px;
+    padding: 0px;
+    background: lightblue;
+}
+
+.input-box input {
+    flex-grow: 1;
+    color: #bfd2ff;
+    vertical-align: middle;
+    background: none;
+    width: 100%;
+    font-size: 12px;
+    border: none;
+    padding: 20px;
+    outline: none;
+}
+
+.input-box input::-webkit-input-placeholder {
+    color: #7881a1;
+}
+
+
+.label{
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    margin: 15px 10px 5px 15px;
+    color: #7881a1;
+}
+
+.login-box input[type=date]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.login-box input[type=password]{
+    filter: invert(1);
+    color: lightslategrey;
+
+}
+
+.login-box input[type=button]{
+    width: 90%;
+    animation: textColor 5s ease infinite;
+    background: none;
+    outline: none;
+    border: none;
+    padding: 5px;
+    margin: 10px 10px 0px 10px;
+}
+
+.login-box input[type=button]:hover{
+    cursor: pointer;
+    margin: 10px 10px 0px 10px;
+    animation: buttonGlow 5s ease infinite;
+}
+
+.list__item {
+    position: relative;
+    margin-left: 25px;
+}
+
+
+.radio-btn {
+    position: absolute;
+    visibility: hidden;
+}
+.radio-btn:checked + .label_radio {
+    color: dodgerblue;
+}
+
+.radio-btn::before {
+    margin-right: 10px;
+}
+
+
+.label_radio {
+    padding: 1em;
+    align-items: center;
+    cursor: pointer;
+}
+
+.label_radio::before {
+    display: inline-block;
+    content: ">";
+    margin-right: 5px;
+}
+.btn{
+    margin: 1.5em;
+    padding: 0.8em;
+    width: 20%;
+    border: 3px solid transparent;
+    border-radius: 0.3em;
+    font-size: 0.9em;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: rgb(125, 240, 190);
+}
+.btn:hover{
+    background-color: teal;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+
+}
+h1, h3, h2{
+    color: azure;
+}
+
+input[type=text] {
+    height: 1.25em;
+    border-radius: 0.5em;
+    padding: 1.15em;
+
+}
+
+input[type=password] {
+    height: 1.25em;
+    border-radius: 0.5em;
+    padding: 1.15em;
+}
+
+.container{
+    text-align: center;
+    padding: 3em;
+    width: 20%;
+}
+
+
+
